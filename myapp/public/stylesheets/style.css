@@ -1,8 +1,21 @@
 body {
+  background-color: #00B7FF;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  font-size: 1rem;
+  color: #000;
+}
+
+.center-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    justify-content: center;
+}
+
+.emoji{
+  width: 72px;
 }

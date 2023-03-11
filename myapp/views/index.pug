@@ -1,5 +1,19 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.center-container
+    h1= title
+    p 
+    span Welcome to the
+    img.emoji(src="./images/pug-icon.png")
+    p demo app!
+
+  block section 
+    div.center-container
+      h2 Learn More: 
+      p
+        a(href="https://pugjs.org/api/getting-started.html") Install Pug with npm
+      p
+        a(href="https://pugjs.org/api/express.html") Express Integration
+      p
+        a(href="https://expressjs.com/en/guide/using-template-engines.html") Using Templates with Express
